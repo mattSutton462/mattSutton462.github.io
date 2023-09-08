@@ -12,6 +12,11 @@ h1, h2{
     color: #183D3D;
 }
 
+.lists{
+    display: flex;
+    border: dotted #183D3D 4px;
+}
+
 .logo{
     width: 150px;
     margin:15px;
@@ -19,10 +24,13 @@ h1, h2{
 
 .experience{
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
     margin: 15px;
 }
 
+.col{
+    flex-basis: 50%;
+}
 a:hover{
     background-color: #FFEEF4;
 }
