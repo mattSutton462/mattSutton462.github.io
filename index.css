@@ -1,0 +1,29 @@
+header, footer{
+    background-color: #94A684;
+    padding: 15px;
+}
+
+body{
+    background-color: #E4E4D0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1, h2{
+    color: #183D3D;
+}
+
+.logo{
+    width: 150px;
+    margin:15px;
+}
+
+.experience{
+    display:flex;
+    flex-direction: row;
+    margin: 15px;
+}
+
+a:hover{
+    background-color: #FFEEF4;
+}
+
