@@ -17,8 +17,9 @@ h1, h2{
     border: dotted #183D3D 4px;
 }
 
-.logo{
-    width: 150px;
+img{
+    max-width: 150px;
+    height: auto;
     margin:15px;
 }
 
