@@ -1,14 +1,20 @@
 header, footer{
     background-color: #94A684;
     padding: 15px;
+    margin: 5px;
 }
 
 body{
     background-color: #E4E4D0;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding:2px;
 }
 
-h1, h2{
+header p{
+    font-size:larger;
+}
+
+h1{
     color: #183D3D;
 }
 
@@ -17,13 +23,21 @@ h1, h2{
     border: dotted #183D3D 4px;
 }
 
+.lists > h2 {
+    color: #183D3D;
+}
+
 img{
     max-width: 150px;
     height: auto;
     margin:15px;
 }
 
-.experience{
+.col > img{
+    border:dotted #183D3D 4px;
+}
+
+#experience{
     display:flex;
     flex-direction: column;
     margin: 15px;
@@ -31,8 +45,14 @@ img{
 
 .col{
     flex-basis: 50%;
+    margin:5px;
 }
 a:hover{
     background-color: #FFEEF4;
+}
+
+#footer_links{
+    font-size: small;
+    text-align:center;
 }
 
